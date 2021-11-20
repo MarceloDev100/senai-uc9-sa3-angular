@@ -1,4 +1,9 @@
-# GameManiaAngular
+
+## SENAI-SP - UC9(SA3) - Atividades dos encontros remotos 1 e 2
+
+Consiste na adaptação do site *Game Mania* para o **Framework Angular**. As páginas e alguns trechos de marcação HTML, como headers (cabeçalhos) e footers (rodapés) do site foram separados em componentes para melhor reuso. 
+
+## GameMania - Angular
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.0.1.
 
