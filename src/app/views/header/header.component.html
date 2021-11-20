@@ -1,0 +1,46 @@
+<header>
+    <div class="center header-position">
+        <div class="logo" id="logo" data-toggle="tooltip" data-placement="right" title="Login">
+            <a href="#"><img src="assets/img/logo.png" alt="Logo do site Game Mania"></a>
+        </div>
+        <div class="access-box">
+            <div class="menu-bar" id="menu-bar" onclick="//onShowMenu()">
+                <div>     
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+            <div class="login-box">
+                <a routerLink="login"><img src="assets/img/login-icon.png" class="login-icon" alt="ícone de login"></a>
+                <a routerLink="carrinho"><img src="assets/img/cart-icon.png" class="cart-icon" alt="ícone de carrinho">
+                <span class="cart-items">1</span></a>  
+            </div>
+            <div class="search-box">
+                <input type="text" class="search-input" placeholder="Busque seu produto">
+                <a href="" class="search-icon"><img src="assets/img/search-icon.png" alt="ícone de pesquisa"></a>
+            </div>
+            <nav class="menu" id="menu">
+                <div class="close-menu" id="close-menu" onclick="//onCloseMenu()">
+                    <i class="fas fa-times"></i>
+                </div>
+                <a href="">Início</a>
+                <a href="">Notebooks</a>
+                <a href="">Tablets</a>
+                <a href="">Pc Gamers</a>
+                <a href="">Jogos</a>
+                <a href="">Smartphones</a>
+                <a routerLink="pedidos">Meus pedidos</a>
+                <div class="access-links" id="access-links">
+                    <a routerLink="login">Login</a>
+                    <a routerLink="carrinho">Carrinho</a>
+                    <form class="search-form">
+                        <label for="search">Pesquisar</label>
+                        <div class="menu-input">
+                            <input type="text" id="search">
+                            <a href="#"><img src="assets/img/search-icon.png" alt="icone pesquisa menu barra"></a>
+                        </div>
+                    </form>
+                </div>
+            </nav>
+        </div>
+    </div>
+</header>

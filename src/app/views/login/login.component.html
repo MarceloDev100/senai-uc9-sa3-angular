@@ -1,0 +1,34 @@
+<section class="login-page">  
+    <div class="login-area center">
+        <h1>
+            <i class="far fa-user"></i>
+            <span class="title">Login do cliente</span>
+        </h1>
+        
+        <form #userForm="ngForm" (ngSubmit)="onSubmit()">     
+            <div class="data-email">
+                <input type="email" id="email-field" name="email" placeholder=" " required [(ngModel)]="userModel.email">
+                <label for="">E-mail</label>
+            </div>
+    
+            <div class="data-password">
+                <input type="password" id="password-field" name="password" placeholder=" " required [(ngModel)]="userModel.password">
+                <label for="">Senha</label>
+            </div>
+    
+            <div class="data-send">
+                <button type="submit" id="go-button">Continuar</button>
+            </div>
+        </form>
+    
+        <p class="register-link">
+            <span>Não tem cadastro?</span>
+            <a href="#">Cadastre-se</a>
+        </p>
+    
+        <p class="policy">Ao continuar com o acesso, você concorda com a nossa <a href="">política de privacidade</a> </p>
+    </div>
+    
+    <div class="back"><a routerLink=""><i class="fas fa-home"></i>Home</a></div>
+</section>
+
